@@ -4,23 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with JohnDoe landing page.">
-    <meta name="author" content="Devcrud">
-    <title>TochoTech</title>
-    <link rel="icon" type="image/jpg" href="/assets/imgs/logotochotech.jpg" />
+    <meta name="description" content="Hagamos realidad tu web!">
+    <meta name="author" content="Javier Canessa">
+    <title>Jcanessa Tech</title>
+    <link rel="icon" type="image/jpg" href="/assets/imgs/LogoJcanessaTech/iconoJcanessaM.svg" />
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + JohnDoe main styles -->
+    <!-- Bootstrap + TochoTech main styles -->
     <link rel="stylesheet" href="assets/css/tochotech.css">
     <!-- font awesome icons -->
     <script src="https://kit.fontawesome.com/0e16b5c4cb.js" crossorigin="anonymous"></script>
+    <!-- Asegúrate de que jQuery esté incluido en tu proyecto -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Lightbox de Lokesh Dhakar -->
+    <link rel="stylesheet" href="assets/css/lightbox.css">
     <!-- Lightbox Css -->
     <link rel="stylesheet" href="assets/css/lightbox.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
-            class="ti-shift-left-alt"></i> Components</a>
 
     <!-- Iconos Top -->
     <header class="header">
@@ -32,7 +34,7 @@
                         target="_blank"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
             </ul>
             <div class="header-content">
-                <h1 class="header-title">TochoTech</h1>
+                <h1 class="header-title">Jcanessa Tech</h1>
                 <h6 class="header-mono">Java Developer | Web Developer</h6>
             </div>
         </div>
@@ -56,9 +58,9 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="assets/imgs/logotochotech.jpg" alt="" class="brand-img">
+                    <img src="assets/imgs/LogoJcanessaTech/jcanessaLogo.svg" alt="" class="brand-img">
                     <li class="brand-txt">
-                        <h5 class="brand-title">TochoTech</h5>
+                        <h5 class="brand-title">Javier Canessa</h5>
                         <div class="brand-subtitle">Java Developer | Web Developer</div>
                     </li>
                 </ul>
@@ -67,7 +69,7 @@
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -102,7 +104,7 @@
                     <li class="social-item"><a class="social-link" href="https://github.com/JavierCanessa"
                             target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link"
-                            href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech,%20quiero%20consultar%20sobre%20tus%20servicios..."
+                            href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20Javier%20Canessa,%20quiero%20consultar%20sobre%20tus%20servicios..."
                             target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
 
                 </ul>
@@ -230,7 +232,7 @@
 
                 <!-- Landing Page -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="price-card text-center  price-card-requried mb-4">
+                    <div class="price-card text-center">
                         <h3 class="price-card-title">Landing Page</h3>
                         <div class="price-card-cost">
                             <!-- <sup class="ti-money"></sup>
@@ -238,28 +240,20 @@
                             <span class="date">00</span> -->
                         </div>
                         <ul class="list">
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Diseño Web
-                                    HTML5</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> 1 pestaña</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Responsive (celular,
-                                    tablet, computadora)</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> 1 Año Hosting </span>
-                            </li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> SEO Básico -
-                                    Metadatos</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Videos YouTube,
-                                    Animaciones</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Google Maps</span>
-                            </li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Formulario de
-                                    Contacto</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Soporte</span></li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> Diseño Web </span>HTML5</li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> 1 </span>pestaña</li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> Responsive </span> (celular, tablet, computadora)</li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> 1 Año Hosting </span> gratis</li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i>SEO Básico<span class="text-muted"> - Metadatos </span></li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> Videos </span>YouTube, Animaciones</li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> Google Maps</span></li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> Formulario de Contacto</span></li>
+                            <li class="list-item gray-dark"><i class="ti-check text-danger" ></i><span class="text-muted"> Soporte</span></li>
 
                         </ul>
                         <div class="btn-container">
                             <div class="btn-container">
-                                <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech,%20quiero%20más%20información%20sobre%20el%20producto%20Landing%20Page..."
-                                    target="_blank">
+                                <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech,%20quiero%20más%20información%20sobre%20el%20producto%20Landing%20Page..." target="_blank">
                                     <button class="btn btn-primary btn-rounded w-lg">
                                         <i class="fa-brands fa-whatsapp"></i> Consultar Presupuesto
                                     </button>
@@ -271,7 +265,7 @@
 
                 <!-- Pack Básico -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="price-card text-center price-card-requried mb-4">
+                    <div class="price-card text-center">
                         <h3 class="price-card-title">Basico</h3>
                         <div class="price-card-cost">
                             <!-- <sup class="ti-money"></sup>
@@ -279,26 +273,19 @@
                             <span class="date">00</span> -->
                         </div>
                         <ul class="list">
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Diseño Web
-                                    HTML5</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Diseño de Logo</span>
-                            </li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> 8 pestañas</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Responsive (celular,
-                                    tablet, computadora)</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> 1 Año Hosting </span>
-                            </li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> SEO Básico -
-                                    Metadatos</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Multimedia & Google
-                                    Maps</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Formulario de
-                                    Contacto</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Soporte</span></li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> Diseño Web </span>HTML5</li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> Diseño de </span>Logo</li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> 8 pestañas</span></li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> Responsive </span>(celular, tablet, computadora)</li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> 1 Año Hosting </span></li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i> SEO Básico<span class="text-muted"> - Metadatos</span></li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> Multimedia & Google Maps</span></li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"> Formulario de Contacto</span></li>
+                            <li class="list-item"><i class="ti-check text-danger" ></i><span class="text-muted"></span> Soporte</li>
                         </ul>
                         <div class="btn-container">
                             <div class="btn-container">
-                                <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech,%20quiero%20más%20información%20sobre%20el%20paquete%20Básico..."
+                                <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20Javier%20Canessa,%20quiero%20más%20información%20sobre%20el%20paquete%20Básico..."
                                     target="_blank">
                                     <button class="btn btn-primary btn-rounded w-lg">
                                         <i class="fa-brands fa-whatsapp"></i> Consultar Presupuesto
@@ -312,7 +299,7 @@
 
                 <!-- WebApp -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="price-card text-center price-card-requried mb-4">
+                    <div class="price-card text-center">
                         <h3 class="price-card-title">WebApp</h3>
                         <div class="price-card-cost">
                             <!-- <sup class="ti-money"></sup>
@@ -320,21 +307,16 @@
                             <span class="date">00</span> -->
                         </div>
                         <ul class="list">
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Diseño Backend y
-                                    Frontend de Sitio webs</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Diseño y Desarrollo de
-                                    WebApps a medida</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> 1 Año Hosting </span>
-                            </li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> SEO Básico -
-                                    Metadatos</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Formulario de
-                                    Contacto</span></li>
-                            <li class="list-item ti-vector text-danger"><span class="text-muted"> Soporte</span></li>
+                            <li class="list-item"><i class="ti-check text-danger"></i> Diseño Backend y Frontend <span class="text-muted"> de Sitio webs</span></li>
+                            <li class="list-item"><i class="ti-check text-danger"></i><span class="text-muted"> Diseño y Desarrollo de </span>WebApps a medida</li>
+                            <li class="list-item"><i class="ti-check text-danger"></i><span class="text-muted"> 1 Año Hosting </span></li>
+                            <li class="list-item"><i class="ti-check text-danger"></i> SEO Básico<span class="text-muted"> - Metadatos</span></li>
+                            <li class="list-item"><i class="ti-check text-danger"></i><span class="text-muted"> Formulario de Contacto</span></li>
+                            <li class="list-item"><i class="ti-check text-danger"></i><span class="text-muted"></span>Soporte</li>
                         </ul>
                         <div class="btn-container">
                             <div class="btn-container">
-                                <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech,%20quiero%20más%20información%20sobre%20el%20producto%20WebApps..."
+                                <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20Javier%20Canessa,%20quiero%20más%20información%20sobre%20el%20producto%20WebApps..."
                                     target="_blank">
                                     <button class="btn btn-primary btn-rounded w-lg">
                                         <i class="fa-brands fa-whatsapp"></i> Consultar Presupuesto
@@ -351,183 +333,244 @@
     <!-- Portfolio Section -->
     <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <h1 class="mb-5"><span class="text-danger">Mi</span> Portfolio</h1>
             <div class="portfolio">
 
                 <!-- Filtros Portfolio -->
                 <div class="filters">
                     <a href="#" data-filter=".unistudent" class="active">Unistudent</a>
                     <a href="#" data-filter=".myuni"> MyUni </a>
-                    <a href="#" data-filter=".branding">MiVecino</a>
+                    <a href="#" data-filter=".mivecino">MiVecino</a>
                     <a href="#" data-filter=""></a>
                 </div>
 
-                <!-- Imagenes Portfolio -->
                 <div class="portfolio-container">
                     <div class="col-md-6 col-lg-4 unistudent">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent_logo.svg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent_logo.svg"></a>
-                                <!-- <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div> -->
+                        <a href="assets/imgs/imgsUnistudent/unistudentLogo2.jpg" data-lightbox="unistudent"
+                            data-title="unistudent_logo">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent_logo.svg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 unistudent">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent1.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent1.jpg"></a>
+                        <a data-lightbox="unistudent" data-title="Unistudent Inicio"
+                            href="assets/imgs/imgsUnistudent/unistudent1.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent1.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 unistudent">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent2.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent2.jpg"></a>
+                        <a data-lightbox="unistudent" data-title="Unistudent Inicio-Nosotros"
+                            href="assets/imgs/imgsUnistudent/unistudent2.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent2.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 unistudent">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent3.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent3.jpg"></a>
+                        <a data-lightbox="unistudent" data-title="Unistudent Inicio-Servicios"
+                            href="assets/imgs/imgsUnistudent/unistudent3.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent3.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 unistudent">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent4.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent4.jpg"></a>
+                        <a data-lightbox="unistudent" data-title="Unistudent Inicio-Contacto"
+                            href="assets/imgs/imgsUnistudent/unistudent4.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent4.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <!-- Imagenes de MyUni -->
                     <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent5.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent5.jpg"></a>
+                        <a data-lightbox="myuni" data-title="MyUni Inicio-Login"
+                            href="assets/imgs/myuni/unistudent5.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/myuni/unistudent5.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent6.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent6.jpg"></a>
+                        <a data-lightbox="myuni" data-title="MyUni Panel" href="assets/imgs/myuni/unistudent6.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/myuni/unistudent6.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent7.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent7.jpg"></a>
+                        <a data-lightbox="myuni" data-title="MyUni Panel Busqueda"
+                            href="assets/imgs/myuni/unistudent7.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/myuni/unistudent7.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent9.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent9.jpg"></a>
+                        <a data-lightbox="myuni" data-title="MyUni Panel-Alta Usuario"
+                            href="assets/imgs/myuni/unistudent8.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/myuni/unistudent8.jpg" class="img-fluid">
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent9.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent9.jpg"></a>
+                    <!-- <div class="col-md-6 col-lg-4 myuni">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent9.jpg" class="img-fluid"
+                                    alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent9.jpg"></a>
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
+                    <div class="col-md-6 col-lg-4 myuni">
+                        <a data-lightbox="myuni" data-title="MyUni Panel-Alta Usuario 2"
+                            href="assets/imgs/myuni/unistudent10.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/myuni/unistudent10.jpg" class="img-fluid">
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent10.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent10.jpg"></a>
+                    <!-- <div class="col-md-6 col-lg-4 myuni">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/imgsUnistudent/unistudent11.jpg" class="img-fluid"
+                                    alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent11.jpg"></a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </div> -->
                     <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent11.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent11.jpg"></a>
+                        <a data-lightbox="myuni" data-title="MyUni Panel-Tabla"
+                            href="assets/imgs/myuni/unistudent12.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/myuni/unistudent12.jpg" class="img-fluid">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 myuni">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/imgsUnistudent/unistudent12.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/imgsUnistudent/unistudent12.jpg"></a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
+
+
                     <!-- Empieza Mi Vecino -->
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Logo"
+                            href="assets/imgs/miVecino/Logoelmercader01.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/elmercader01.svg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Inicio"
+                            href="assets/imgs/miVecino/mivecino1.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino1.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Inicio-Busqueda"
+                            href="assets/imgs/miVecino/mivecino2.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino2.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Inicio-Administrador"
+                            href="assets/imgs/miVecino/mivecino3.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino3.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino ALta Usuario"
+                            href="assets/imgs/miVecino/mivecino4.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino4.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Busqueda Nombre"
+                            href="assets/imgs/miVecino/mivecino5.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino5.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Tabla Completa"
+                            href="assets/imgs/miVecino/mivecino6.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino6.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mivecino">
+                        <a data-lightbox="mivecino" data-title="Mi Vecino Eliminar Usuario"
+                            href="assets/imgs/miVecino/mivecino7.jpg">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/miVecino/mivecino7.jpg" class="img-fluid">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of portfolio section -->
 
-    <!-- <div class="section contact" id="contact">
+    <div class="section contact" id="contact">
         <div id="map" class="map"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
-                        <form action="">
+                        <h4 class="contact-title">Enviame un mensaje</h4>
+                        <form action="https://formspree.io/f/xzblkvdd" method="post">
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Name *" required>
+                                <input class="form-control" id="i_nombre" name="nombre" type="text"
+                                    placeholder="Nombre *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
+                                <input class="form-control" id="i_pais" name="pais" type="text" placeholder="Pais *"
+                                    required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id=" placeholder=" Message *" rows="7"
-                                    required></textarea>
+                                <input class="form-control" id="i_email" name="email" type="email" placeholder="Email *"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="mensaje" name="mensaje" placeholder=" Mensaje *"
+                                    rows="7" required></textarea>
                             </div>
                             <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
+                                <button type="submit" class="form-control btn btn-primary">
+                                    Enviar Mensaje
+                                </button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
+                        <h4 class="contact-title">Contactame</h4>
                         <div class="row mb-2">
                             <div class="col-1 pt-1 mr-1">
                                 <i class="ti-mobile icon-md"></i>
                             </div>
                             <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
+                                <h6 class="d-inline">Telefono : <br>
+                                    <a href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech...">
+                                        <span class="text-muted">+ (54) 1122538411</span>
+                                    </a>
+                                </h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -535,8 +578,7 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB
-                                        Country.</span></h6>
+                                <h6 class="d-inline">Ubicación :<br> <span class="text-muted">Ciudad Autónoma de Buenos Aires</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -544,34 +586,32 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">canessa93desarrollo@gmail.com</span></h6>
                             </div>
                         </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github"
-                                        aria-hidden="true"></i></a></li>
+                        <ul class="social-icons pt-3">
+                            <li class="social-item"><a class="social-link" href="mailto:canessa93desarrollo@gmail.com"><i
+                                        class="ti-email" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link" href="https://github.com/JavierCanessa"
+                                    target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link"
+                                    href="https://api.whatsapp.com/send?phone=541122538411&text=Hola%20TochoTech,%20quiero%20consultar%20sobre%20tus%20servicios..."
+                                    target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+        
                         </ul>
                     </div>
                 </div>
             </div>
 
         </div>
-    </div> -->
+    </div>
 
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
                 &copy;
-                <script>document.write(new Date().getFullYear())</script> Created By <a href="http://devcrud.com" target="_blank"><span
-                        class="text-danger" title="Bootstrap 4 Themes and Dashboards">Tocho</span></a>
+                <script>document.write(new Date().getFullYear())</script> Created By <a href=""
+                    target="_blank"><span class="text-danger" title="">Jcanessa Tech</span></a>
             </p>
         </div>
     </footer>
@@ -590,11 +630,11 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
 
-    <!-- Tochotech js -->
+    <!-- TochoTech js -->
     <script src="assets/js/tochotech.js"></script>
 
-    <!-- Lightbox.js -->
-    <script src="assets/js/lightbox-plus-jquery.js"></script>
+    <!-- Lightbox Lokesh js -->
+    <script src="assets/js/lightbox.js"></script>
 
 </body>
 

@@ -1,13 +1,7 @@
 @charset "UTF-8";
 /*!
 =========================================================
-* JohnDoe Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
+* TochoTech Landing page
 =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -74,7 +68,7 @@ section {
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -177,13 +171,13 @@ sup {
 }
 
 a {
-  color: #F85C70;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f51330;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -3084,14 +3078,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #F85C70;
-  border-color: #F85C70;
+  background-color: #0D6EFD;
+  border-color: #0D6EFD;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #f63750;
-  border-color: #f62b45;
+  color: #000000;
+  background-color: #f0f8ff;
+  border-color: #0D6EFD;
 }
 
 .btn-primary:focus,
@@ -3567,14 +3561,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger {
-  color: #F85C70;
-  border-color: #F85C70;
+  color: #0D6EFD;
+  border-color: #0D6EFD;
 }
 
 .btn-outline-danger:hover {
   color: #fff;
-  background-color: #F85C70;
-  border-color: #F85C70;
+  background-color: #0D6EFD;
+  border-color: #0D6EFD;
 }
 
 .btn-outline-danger:focus,
@@ -11901,7 +11895,7 @@ a.text-warning:focus {
 }
 
 .text-danger {
-  color: #F85C70 !important;
+  color: #0D6EFD !important;
 }
 
 a.text-danger:hover,
@@ -12073,7 +12067,7 @@ a.text-dark:focus {
 
 /* typography */
 p {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(16px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
   color: #444;
 }
@@ -12096,7 +12090,7 @@ p {
 
 .info {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .info li {
@@ -12113,7 +12107,7 @@ p {
   display: block;
   width: 25px;
   height: 1.5px;
-  background-color: #F85C70;
+  background-color: #0D6EFDz;
 }
 
 .breadcrumb {
@@ -12236,7 +12230,7 @@ p {
 .price-card .list {
   list-style-type: none;
   padding-left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .price-card .list .list-item {
@@ -12257,10 +12251,10 @@ p {
   content: 'New';
   position: absolute;
   right: -25px;
-  top: 10px;
+  top: 30px;
   padding: 6px 10px;
   width: 100px;
-  background: #F85C70;
+  background: #0D6EFD;
   color: #fff;
   font-weight: 400;
   -webkit-transform: rotate(45deg);
@@ -12315,7 +12309,7 @@ p {
 
 .portfolio .filters a.active {
   opacity: 1;
-  background: #F85C70;
+  background: #0D6EFD;
   color: #fff;
 }
 
@@ -12498,7 +12492,7 @@ pre .code {
 }
 
 .social-icons .social-link:hover {
-  color: #F85C70;
+  color: #0D6EFD;
 }
 
 .navbar {
@@ -12520,7 +12514,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #F85C70 !important;
+  color: #0D6EFD !important;
 }
 
 .navbar .brand {
@@ -12530,19 +12524,19 @@ pre .code {
 .navbar .brand .brand-img {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 22%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -weblit-transform: translate(-50%, -50%);
-  border: 10px solid white;
+  /* border: 10px solid white; */
   -webkit-transition: .5s !important;
   transition: .5s !important;
   -weblit-transition: .5s !important;
   z-index: 2;
-  box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
-  width: 170px;
-  border-radius: 50%;
+  /* box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13); */
+  width: 275px;
+  border-radius: 0%;
 }
 
 .navbar .brand .brand-txt {
@@ -12622,8 +12616,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/fotoParque.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/fotoParque.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/cerebro.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/cerebro.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12799,7 +12793,7 @@ pre .code {
   content: '';
   width: 20px;
   height: 2px;
-  background: #F85C70;
+  background: #0D6EFD;
   display: block;
   margin-top: 10px;
 }

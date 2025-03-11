@@ -423,7 +423,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 0.90rem;
 }
 
 .lead {
@@ -12107,7 +12107,7 @@ p {
   display: block;
   width: 25px;
   height: 1.5px;
-  background-color: #0D6EFDz;
+  background-color: #0D6EFD;
 }
 
 .breadcrumb {
